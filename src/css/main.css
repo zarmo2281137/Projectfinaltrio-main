@@ -1,0 +1,142 @@
+.modern {
+    margin-top: 100px;
+    font-size: 50px;
+    line-height: 80px;
+    font-family: "Playfair Display";
+}
+.modern-minimalist {
+    display: flex; 
+  
+    
+}
+.first-main-section {
+    position: relative;
+}
+.modern-minimalist picture {
+    margin: 0 10px; 
+}
+.thesmallestpic{
+    position: absolute;
+    right: 65%;
+    top: 320px;
+    z-index: -1;
+    }
+    .thebiggestpic {
+    position: absolute;
+    top: 120px;
+    right: 29%;
+    z-index: -1;
+    }
+    .mediumpic {
+        position: absolute;
+        right: 11%;
+        top: 120px;
+    }
+    .thebiggesttabletpic {
+        display: none;
+    }
+ 
+    
+
+@media (max-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+    .modernminimalist-full {
+        position: relative;
+    }
+    .modern {
+    font-size: 40px;
+    width: 100%;
+    z-index: 1;
+    margin-left: 20px   ;
+   
+   }
+    .thesmallestpic{
+        position: absolute;
+       width: 280px;
+        left: 1px;
+        top: 337px;
+        }
+        .thebiggestpic {
+        display: none;
+        }
+        .mediumpic {
+            display: none;
+        }
+        .thebiggesttabletpic {
+          width: 380px;
+          top: 40%;
+        
+         position: absolute;
+            display: block;
+            right: 1px;
+           
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 700px;
+            }
+            .modernminimalist-full {
+                position: relative;
+            }
+            .modern {
+            font-size: 40px;
+            width: 100%;
+            z-index: 1;
+            margin-left: 20px   ;
+           
+           }
+            .thesmallestpic{
+                position: absolute;
+               width: 280px;
+                left: 1px;
+                top: 337px;
+                }
+                .thebiggestpic {
+                display: none;
+                }
+                .mediumpic {
+                    display: none;
+                }
+                .thebiggesttabletpic {
+                  width: 380px;
+                  top: 40%;
+                
+                 position: absolute;
+                    display: block;
+                    right: 1px;
+                   
+                }
+         
+        }
+}
+@media (max-width: 425px) {
+    .thebiggesttabletpic {
+        display: none;
+    }
+    .mediumpic {
+        display: none;
+    }
+    .thebiggestpic {
+        display: none;
+    }
+    .thesmallestpic {
+        display: none;  
+    }
+    .first-main-section {
+      background-image: url(../img/productheaderbackground.png);
+/* background-size: 53%; */
+background-repeat: no-repeat;
+
+
+    }
+  .container {
+    width: 400px;
+    margin: 0px auto;
+  }
+  
+    body {
+        overflow: hidden;
+    }
+}

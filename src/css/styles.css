@@ -12,7 +12,17 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
+@import url('./main.css');
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
