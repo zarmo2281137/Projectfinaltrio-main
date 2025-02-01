@@ -83,6 +83,10 @@ width: 128px;
 }
 }
 @media (max-width: 425px) {
+  
+  .nav {
+    width: 100%;
+  }
   .nav-list {
     display: none;
   }

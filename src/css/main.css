@@ -48,8 +48,13 @@
         width: 224px;
         height: 50px;
        background-color: #0A224A;
+       color: white;
+       top: 575px;
+       right: 290px;
     }
-
+.touch-elegance-second {
+    display: none;
+}
 @media (max-width: 1024px) {
     .container {
         width: 800px;
@@ -85,6 +90,27 @@
             right: 1px;
            
         }
+        .touch-elegance {
+            position: absolute;
+            z-index: 2;
+            top: 640px;
+            left: 10px;
+            font-size: 18px;
+        }
+        .header-main-button {
+            position: absolute;
+            width: 224px;
+            height: 50px;
+           background-color: #0A224A;
+           color: white;
+           top: 710px;
+           left: 11px;
+        }
+        .touch-elegance-second {
+            display: none;
+        }
+}
+
         @media (max-width: 768px) {
             .container {
                 width: 700px;
@@ -120,9 +146,11 @@
                     right: 1px;
                    
                 }
-         
+                .touch-elegance-second {
+                    display: none;
+                }
         }
-}
+
 @media (max-width: 425px) {
     .thebiggesttabletpic {
         display: none;
@@ -152,5 +180,30 @@ background-repeat: no-repeat;
   
     body {
         overflow: hidden;
+    }
+    .touch-elegance {
+      
+        display: none;
+    }
+    .header-main-button {
+        position: absolute;
+        width: 224px;
+        height: 50px;
+       background-color: #0A224A;
+       color: white;
+       top: 370px;
+       left: 11px;
+    }
+    .touch-elegance-second {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 290px;
+        left: 10px;
+        font-size: 20px;
+    }
+    .modern {
+        font-size: 30px;
+        line-height: 60px;
     }
 }
