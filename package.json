@@ -1,5 +1,5 @@
 {
-  "name": "Projectfinaltrio",
+  "name": "projectfinaltrio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -17,8 +17,12 @@
   "author": "Timofiy Yerokhin <yerokhint@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "keywords": []
 }
-
