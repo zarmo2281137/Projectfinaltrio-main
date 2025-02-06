@@ -16,13 +16,16 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
-@import url("./second-section.css");
-
-
+@import url('./second-section.css');
+@import url('reviews.css');
 
 .playfair-display-uniquifier {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
 }

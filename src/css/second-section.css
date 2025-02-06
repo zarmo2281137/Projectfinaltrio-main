@@ -1,5 +1,5 @@
 .aboutusmain {
-    padding-top: 45%;
+    /* padding-top: 45%; */
     font-weight: 500;
 }
 .craftship {
@@ -83,5 +83,8 @@
     }
     .sofapicthree {
        display: none;
+    }
+    .second-section-main {
+        padding-top: 64px;
     }
 }
