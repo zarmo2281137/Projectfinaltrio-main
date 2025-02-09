@@ -26,9 +26,6 @@
   }
 }
 
-/* .intro__content-wrapper {
-} */
-
 .intro__content {
   position: relative;
 
@@ -60,9 +57,6 @@
     display: none;
   }
 }
-
-/* .intro__img {
-} */
 
 .intro__img--small {
   width: 310px;
