@@ -65,13 +65,11 @@
     .ourproducts-title {
         font-size: 24px;
     }
-    .ourproducts-list {
-        margin-left:52px;
-    }
     .ourproducts-list-item {
         width: 343px;
         height: 340px;
         padding: 16px;
+        margin-left: 16px;
     }
     .ourproducts-list-image {
         width: 343x;
