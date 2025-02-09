@@ -18,6 +18,7 @@
 @import url('./footer.css');
 @import url('./second-section.css');
 @import url('reviews.css');
+@import url('main-new.css');
 
 .playfair-display-uniquifier {
   font-family: 'Playfair Display', serif;
