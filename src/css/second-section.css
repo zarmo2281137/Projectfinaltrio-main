@@ -87,4 +87,14 @@
     .second-section-main {
         padding-top: 64px;
     }
+    .boldtextsyears {
+        flex-direction: column;
+        
+    }
+    .fiveyears {
+        padding-bottom: 20px;
+    }
+    .hundredpercent {
+        padding-bottom: 20px;
+    }
 }
