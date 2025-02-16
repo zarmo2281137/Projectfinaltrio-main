@@ -67,7 +67,7 @@ width: 128px;
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .header {
     padding: 10px 0;
   
@@ -82,7 +82,7 @@ width: 128px;
   display: none;
 }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   
   .nav {
     width: 100%;
