@@ -19,6 +19,9 @@
 @import url('./second-section.css');
 @import url('reviews.css');
 @import url('main-new.css');
+@import url('bestsellers.css');
+@import url('ourproducts.css');
+@import url('prices.css');
 
 .playfair-display-uniquifier {
   font-family: 'Playfair Display', serif;
