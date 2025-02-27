@@ -363,7 +363,7 @@ a {
 }
 
 .newsletter__agreement-btn:checked::before {
-  background: url(/src/public/img/check.svg);
+  background: url(/src/img/public/img/check.svg);
 }
 
 .newsletter__label-txt {
