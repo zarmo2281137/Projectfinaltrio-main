@@ -33,7 +33,7 @@
     width: 0px;
     height: 0px;
     background-color: #0A224A;
-    margin: 10px 0;
+    margin: 7px 0;
     transition: width 0.3s ease
 }
 .prices-list-item-title:hover::before {
