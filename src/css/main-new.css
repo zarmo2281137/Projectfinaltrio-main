@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 426px) {
   .intro {
-    background: url("/src/public/img/productheaderbackground.png");
+    background: url("../img/productheaderbackground.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
