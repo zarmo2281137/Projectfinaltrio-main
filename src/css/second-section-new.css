@@ -80,6 +80,7 @@
 
   width: 536px;
   height: 540px;
+  max-width: 536px;
 }
 @media (max-width: 1024px) {
   .sofapic {
