@@ -151,7 +151,8 @@ width: 128px;
   margin-right: 30px;
 }
 .nav {
-  width: 425px;
+  display: flex;
+  justify-content: space-between;
 }
 
 }
