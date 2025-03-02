@@ -159,7 +159,7 @@
     display: none;
   }
   .first-main-section {
-    background-image: url(../img/productheaderbackground.png);
+    background-image: url(./public/img/productheaderbackground.png);
     background-size: 717px;
     height: 717px;
     width: 450px;
