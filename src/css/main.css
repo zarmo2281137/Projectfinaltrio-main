@@ -70,6 +70,7 @@
    
    }
     .thesmallestpic{
+        
         position: absolute;
        width: 280px;
         left: 1px;
@@ -148,6 +149,9 @@
                 }
                 .touch-elegance-second {
                     display: none;
+                }
+                .touch-elegance {
+                    z-index: 1;
                 }
         }
 
