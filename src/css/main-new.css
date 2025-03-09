@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 426px) {
   .intro {
-    background: url(../assets/productheaderbackground.png);
+    background: url("../img/productheaderbackground.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -88,7 +88,7 @@
 }
 
 .intro__img--medium {
-  max-width: none;
+  max-width: 324px;
   width: 324px;
   height: 337px;
 }
@@ -169,5 +169,11 @@
     width: 285px;
     font-size: 28px;
     line-height: 42px; /* 150% */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1370px !important;
   }
 }
