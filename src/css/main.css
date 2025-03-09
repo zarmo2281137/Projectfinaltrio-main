@@ -1,68 +1,66 @@
 .modern {
-    margin-top: 100px;
-    font-size: 50px;
-    line-height: 80px;
-    font-family: "Playfair Display";
+  margin-top: 100px;
+  font-size: 50px;
+  line-height: 80px;
+  font-family: 'Playfair Display';
 }
 .modern-minimalist {
-    display: flex; 
-  
-    
+  display: flex;
 }
 .first-main-section {
-    position: relative;
+  position: relative;
 }
 .modern-minimalist picture {
-    margin: 0 10px; 
+  margin: 0 10px;
 }
-.thesmallestpic{
-    position: absolute;
-    right: 65%;
-    top: 320px;
-    z-index: -1;
-    }
-    .thebiggestpic {
-    position: absolute;
-    top: 120px;
-    right: 29%;
-    z-index: -1;
-    }
-    .mediumpic {
-        position: absolute;
-        right: 11%;
-        top: 120px;
-    }
-    .thebiggesttabletpic {
-        display: none;
-    }
- 
-    .touch-elegance {
-        position: absolute;
-        z-index: 2;
-        top: 500px;
-        right: 210px;
-        font-size: 18px;
-    }
-    .header-main-button {
-        position: absolute;
-        width: 224px;
-        height: 50px;
-       background-color: #0A224A;
-       color: white;
-       top: 575px;
-       right: 290px;
-    }
+.thesmallestpic {
+  position: absolute;
+  right: 65%;
+  top: 320px;
+  z-index: -1;
+}
+.thebiggestpic {
+  position: absolute;
+  top: 120px;
+  right: 29%;
+  z-index: -1;
+}
+.mediumpic {
+  position: absolute;
+  right: 11%;
+  top: 120px;
+}
+.thebiggesttabletpic {
+  display: none;
+}
+
+.touch-elegance {
+  position: absolute;
+  z-index: 2;
+  top: 500px;
+  right: 210px;
+  font-size: 18px;
+}
+.header-main-button {
+  position: absolute;
+  width: 224px;
+  height: 50px;
+  background-color: #0a224a;
+  color: white;
+  top: 575px;
+  right: 290px;
+}
 .touch-elegance-second {
-    display: none;
+  display: none;
 }
 @media (max-width: 1024px) {
-    .container {
-        width: 800px;
-    }
-    .modernminimalist-full {
-        position: relative;
-    }
-    .modern {
+  .container {
+    width: 800px;
+  }
+  .modernminimalist-full {
+    position: relative;
+  }
+  .modern {
     font-size: 40px;
     width: 100%;
     z-index: 1;
@@ -150,64 +148,55 @@
                 .touch-elegance-second {
                     display: none;
                 }
-                .touch-elegance {
-                    z-index: 1;
-                }
         }
 
 @media (max-width: 425px) {
-    .thebiggesttabletpic {
-        display: none;
-    }
-    .mediumpic {
-        display: none;
-    }
-    .thebiggestpic {
-        display: none;
-    }
-    .thesmallestpic {
-        display: none;  
-    }
-    .first-main-section {
-      background-image: url(../img/productheaderbackground.png);
-background-size: 800px;
-height: 800px;
-width: 450px;
-background-repeat: no-repeat;
-
-
-    }
+  .thebiggesttabletpic {
+    display: none;
+  }
+  .mediumpic {
+    display: none;
+  }
+  .thebiggestpic {
+    display: none;
+  }
+  .thesmallestpic {
+    display: none;
+  }
+  .first-main-section {
+    background-image: url(./public/img/productheaderbackground.png);
+    background-size: 717px;
+    height: 717px;
+    width: 450px;
+    background-repeat: no-repeat;
+  }
   .container {
     width: 400px;
     margin: 0px auto;
   }
-  
-    body {
-        overflow: hidden;
-    }
-    .touch-elegance {
-      
-        display: none;
-    }
-    .header-main-button {
-        position: absolute;
-        width: 224px;
-        height: 50px;
-       background-color: #0A224A;
-       color: white;
-       top: 370px;
-       left: 11px;
-    }
-    .touch-elegance-second {
-        display: block;
-        position: absolute;
-        z-index: 1;
-        top: 290px;
-        left: 10px;
-        font-size: 20px;
-    }
-    .modern {
-        font-size: 30px;
-        line-height: 60px;
-    }
+
+  .touch-elegance {
+    display: none;
+  }
+  .header-main-button {
+    position: absolute;
+    width: 224px;
+    height: 50px;
+    background-color: #0a224a;
+    color: white;
+    top: 370px;
+    left: 11px;
+  }
+  .touch-elegance-second {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 290px;
+    left: 10px;
+    font-size: 20px;
+  }
+  .modern {
+    font-size: 30px;
+    line-height: 60px;
+  }
 }

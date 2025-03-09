@@ -1,5 +1,6 @@
 .header {
   padding: 20px 0;
+  background-color: #f7faff;
 }
 .nav {
   display: flex;
@@ -19,9 +20,14 @@
 .nav-link {
   position: relative;
   display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
   transition: 200ms ease-in;
+
+  color: #0a224a;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -44,7 +50,7 @@
 }
 
 .logo-header {
-width: 128px;
+  width: 128px;
 }
 .header-menu {
   display: none;
@@ -54,9 +60,31 @@ width: 128px;
 }
 
 @media (max-width: 1024px) {
+  .nav-list {
+    padding-left: 30px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .hedear-menu-modal-div {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
   .header {
     padding: 10px 0;
-  
+  }
+  .nav {
+    width: 500px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
   }
 .nav {
   width: 500px;
@@ -147,8 +175,7 @@ width: 128px;
 }
 
 }
-@media (max-width: 425px) {
-  
+@media (max-width: 426px) {
   .nav {
     width: 100%;
   }
@@ -160,7 +187,7 @@ width: 128px;
     margin-right: 30px;
   }
   .hedear-menu-modal-div {
-   display: block;
+    display: block;
   }
   .container {
     width: 400px;
@@ -168,7 +195,6 @@ width: 128px;
 
   .logo-header {
     width: 100px;
-   
   }
 
   .overlay {
@@ -183,7 +209,7 @@ width: 128px;
     overflow-x: hidden;
     transition: 0.5s;
   }
-  
+
   .overlay-content {
     position: relative;
     top: 25%;
@@ -191,7 +217,7 @@ width: 128px;
     text-align: center;
     margin-top: 30px;
   }
-  
+
   .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -200,22 +226,23 @@ width: 128px;
     display: block;
     transition: 0.3s;
   }
-  
-  .overlay a:hover, .overlay a:focus {
+
+  .overlay a:hover,
+  .overlay a:focus {
     color: #f1f1f1;
   }
-  
+
   .overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
   }
-.threelinenav {
-  margin-right: 30px;
-}
-.nav {
-  width: 425px;
-}
-
+  .threelinenav {
+    margin-right: 30px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
