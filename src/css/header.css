@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+
   .nav-list {
     padding-left: 30px;
   }
@@ -72,7 +72,7 @@
   .mobile-menu {
     display: none;
   }
-}
+
 @media (max-width: 769px) {
   .header {
     padding: 10px 0;

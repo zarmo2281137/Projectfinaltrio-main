@@ -70,7 +70,7 @@
 }
 @media screen and (max-width: 480px) {
     .prices {
-        padding: 100px 24px;
+        padding: 64px 24px;
     }
     .prices-list-item-title {
         font-size: 24px;

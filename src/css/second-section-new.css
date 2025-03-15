@@ -82,15 +82,17 @@
   height: 540px;
   max-width: 536px;
 }
-@media (max-width: 1024px) {
-  .sofapic {
-    display: none;
-  }
-  .sofapicthree {
-    display: block;
-    width: 704px;
-    padding-top: 20px;
-  }
+.sofapic-mobile {
+  display: none;
+}
+
+.sofapic {
+  display: none;
+}
+.sofapicthree {
+  display: block;
+  width: 704px;
+  /* padding-top: 20px; */
 }
 
 @media (max-width: 768px) {
@@ -100,7 +102,7 @@
   .sofapicthree {
     display: block;
     width: 704px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
   .craftship {
     width: 576px;
@@ -122,6 +124,9 @@
   }
   .sofapicthree {
     display: none;
+  }
+  .sofapic-mobile {
+    display: block;
   }
   .boldtextsyears {
     flex-direction: column;

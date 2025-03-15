@@ -53,9 +53,62 @@
 .touch-elegance-second {
   display: none;
 }
-@media (max-width: 1024px) {
+
+.container {
+  width: 800px;
+}
+.modernminimalist-full {
+  position: relative;
+}
+.modern {
+  font-size: 40px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 20px;
+}
+.thesmallestpic {
+  position: absolute;
+  width: 280px;
+  left: 1px;
+  top: 337px;
+}
+.thebiggestpic {
+  display: none;
+}
+.mediumpic {
+  display: none;
+}
+.thebiggesttabletpic {
+  width: 380px;
+  top: 40%;
+
+  position: absolute;
+  display: block;
+  right: 1px;
+}
+.touch-elegance {
+  position: absolute;
+  z-index: 2;
+  top: 640px;
+  left: 10px;
+  font-size: 18px;
+}
+.header-main-button {
+  position: absolute;
+  width: 224px;
+  height: 50px;
+  background-color: #0a224a;
+  color: white;
+  top: 710px;
+  left: 11px;
+}
+.touch-elegance-second {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .container {
-    width: 800px;
+    width: 700px;
   }
   .modernminimalist-full {
     position: relative;
@@ -64,91 +117,32 @@
     font-size: 40px;
     width: 100%;
     z-index: 1;
-    margin-left: 20px   ;
-   
-   }
-    .thesmallestpic{
-        
-        position: absolute;
-       width: 280px;
-        left: 1px;
-        top: 337px;
-        }
-        .thebiggestpic {
-        display: none;
-        }
-        .mediumpic {
-            display: none;
-        }
-        .thebiggesttabletpic {
-          width: 380px;
-          top: 40%;
-        
-         position: absolute;
-            display: block;
-            right: 1px;
-           
-        }
-        .touch-elegance {
-            position: absolute;
-            z-index: 2;
-            top: 640px;
-            left: 10px;
-            font-size: 18px;
-        }
-        .header-main-button {
-            position: absolute;
-            width: 224px;
-            height: 50px;
-           background-color: #0A224A;
-           color: white;
-           top: 710px;
-           left: 11px;
-        }
-        .touch-elegance-second {
-            display: none;
-        }
-}
+    margin-left: 20px;
+  }
+  .thesmallestpic {
+    position: absolute;
+    width: 280px;
+    left: 1px;
+    top: 337px;
+  }
+  .thebiggestpic {
+    display: none;
+  }
+  .mediumpic {
+    display: none;
+  }
+  .thebiggesttabletpic {
+    width: 380px;
+    top: 40%;
 
-        @media (max-width: 768px) {
-            .container {
-                width: 700px;
-            }
-            .modernminimalist-full {
-                position: relative;
-            }
-            .modern {
-            font-size: 40px;
-            width: 100%;
-            z-index: 1;
-            margin-left: 20px   ;
-           
-           }
-            .thesmallestpic{
-                position: absolute;
-               width: 280px;
-                left: 1px;
-                top: 337px;
-                }
-                .thebiggestpic {
-                display: none;
-                }
-                .mediumpic {
-                    display: none;
-                }
-                .thebiggesttabletpic {
-                  width: 380px;
-                  top: 40%;
-                
-                 position: absolute;
-                    display: block;
-                    right: 1px;
-                   
-                }
-                .touch-elegance-second {
-                    display: none;
-                }
-        }
+    position: absolute;
+    display: block;
+    right: 1px;
+  }
+  .touch-elegance-second {
+    display: none;
+  }
+}
 
 @media (max-width: 425px) {
   .thebiggesttabletpic {
