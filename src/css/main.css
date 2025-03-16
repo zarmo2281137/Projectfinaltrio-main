@@ -54,9 +54,6 @@
   display: none;
 }
 
-.container {
-  width: 800px;
-}
 .modernminimalist-full {
   position: relative;
 }
@@ -106,9 +103,10 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .container {
-    width: 700px;
+    width: 768px;
+    padding: 0 28px;
   }
   .modernminimalist-full {
     position: relative;
